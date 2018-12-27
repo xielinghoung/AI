@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">滴滴验布</string>
+    <string name="my_message">个人中心</string>
+    <string name="classification">产品分类</string>
+    <string name="presentation">验布报告</string>
+    <string name="workeroder">工单大厅</string>
+    <string name="setting">设置</string>
+</resources>

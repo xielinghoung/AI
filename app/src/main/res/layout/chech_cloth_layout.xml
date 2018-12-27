@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO:1111111"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="工单验布表"
+            android:textSize="18dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#686868"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="瑕疵 "
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" DEFED"
+            android:textSize="18dp"/>
+
+        <RadioGroup
+            android:id="@+id/checked_defed"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/checked_defed_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1分"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/checked_defed_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2分"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/checked_defed_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3分"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/checked_defed_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4分"
+                android:layout_weight="1"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#686868"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位置 "
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" POSITION"
+            android:textSize="18dp"/>
+
+        <RadioGroup
+            android:id="@+id/checked_position"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/checked_position_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1分"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/checked_position_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2分"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/checked_position_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3分"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/checked_position_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4分"
+                android:layout_weight="1"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#686868"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扣点 "
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" DEFFCIS"
+            android:textSize="18dp"/>
+
+        <RadioGroup
+            android:id="@+id/checked_deffcis"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/checked_deffcis_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1分"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/checked_deffcis_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2分"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/checked_deffcis_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3分"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/checked_deffcis_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4分"
+                android:layout_weight="1"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#686868"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/add_pic"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/add_pic"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/add_pic"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/add_pic"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/add_pic"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:text="提交检查报告"
+            android:textSize="18dp"
+            android:textColor="@color/Whire"/>
+
+        <Button
+            android:id="@+id/re_submit"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:text="重置检查报告"
+            android:textSize="18dp"
+            android:textColor="@color/Whire"/>
+
+    </LinearLayout>
+</LinearLayout>
